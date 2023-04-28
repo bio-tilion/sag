@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+eggnog_get_fasta        1              1              1
+msa_clustalo_ebi        1              1              1
+total                   3              1              1
+
+Select jobs to execute...
+
+[Thu Apr 27 19:50:15 2023]
+rule eggnog_get_fasta:
+    input: scripts/get_fasta.awk, data/COG5002_members_1762.tsv
+    output: data/COG5002_members_1762.faa
+    jobid: 2
+    reason: Missing output files: data/COG5002_members_1762.faa
+    wildcards: eggnog_member_list=COG5002_members_1762
+    resources: tmpdir=/tmp
+
+[Thu Apr 27 19:51:04 2023]
+Finished job 2.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Thu Apr 27 19:51:04 2023]
+rule msa_clustalo_ebi:
+    input: data/COG5002_members_1762.faa
+    output: results/clustalo_COG5002_members_1762
+    jobid: 1
+    reason: Missing output files: results/clustalo_COG5002_members_1762; Input files updated by another job: data/COG5002_members_1762.faa
+    wildcards: fasta_seqs=COG5002_members_1762
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule msa_clustalo_ebi in file /home/palby/sag/Snakefile, line 15:
+Job 1  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/clustalo_COG5002_members_1762
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-04-27T195014.429889.snakemake.log

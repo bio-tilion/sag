@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+msa_clustalo_ebi        1              1              1
+total                   2              1              1
+
+Select jobs to execute...
+
+[Fri Apr 28 10:40:27 2023]
+rule msa_clustalo_ebi:
+    input: data/uniprot_COG5002_1762.faa
+    output: results/clustalo_uniprot_COG5002_1762.log
+    jobid: 3
+    reason: Missing output files: results/clustalo_uniprot_COG5002_1762.log
+    wildcards: fasta_seqs=uniprot_COG5002_1762
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 10:42:16 2023]
+Finished job 3.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Apr 28 10:42:16 2023]
+localrule all:
+    input: results/clustalo_COG5002_members_1762.log, results/clustalo_uniprot_COG5002_1762.log
+    jobid: 0
+    reason: Input files updated by another job: results/clustalo_uniprot_COG5002_1762.log
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 10:42:16 2023]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2023-04-28T104026.598206.snakemake.log

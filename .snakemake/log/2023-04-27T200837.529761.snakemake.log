@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+msa_clustalo_ebi        1              1              1
+total                   2              1              1
+
+Select jobs to execute...
+
+[Thu Apr 27 20:08:38 2023]
+rule msa_clustalo_ebi:
+    input: data/COG5002_members_1762.faa
+    output: results/clustalo_COG5002_members_1762.log
+    jobid: 1
+    reason: Missing output files: results/clustalo_COG5002_members_1762.log
+    wildcards: fasta_seqs=COG5002_members_1762
+    resources: tmpdir=/tmp
+
+RuleException in rule msa_clustalo_ebi in file /home/palby/sag/Snakefile, line 15:
+NameError: The name 'fasta_seqs' is unknown in this context. Did you mean 'wildcards.fasta_seqs'?, when formatting the following:
+python scripts/clustalo.py --email alberto.locca1@gmail.com --stype protein --sequence {input} --outfile results/clustalo_{fasta_seqs} --quiet > {output}

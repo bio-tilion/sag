@@ -1,0 +1,82 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+all                      1              1              1
+eggnog_get_fasta         1              1              1
+msa_clustalo_ebi         2              1              1
+uniprot_get_fasta        1              1              1
+total                    5              1              1
+
+Select jobs to execute...
+
+[Fri Apr 28 11:30:08 2023]
+rule uniprot_get_fasta:
+    input: scripts/uniprot_eggnog.py
+    output: data/uniprot_COG5002_1762.faa
+    jobid: 4
+    reason: Missing output files: data/uniprot_COG5002_1762.faa
+    wildcards: fasta_seqs=COG5002_1762
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 11:30:09 2023]
+Finished job 4.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Fri Apr 28 11:30:09 2023]
+rule msa_clustalo_ebi:
+    input: data/uniprot_COG5002_1762.faa
+    output: results/clustalo_uniprot_COG5002_1762.log
+    jobid: 3
+    reason: Missing output files: results/clustalo_uniprot_COG5002_1762.log; Input files updated by another job: data/uniprot_COG5002_1762.faa
+    wildcards: fasta_seqs=uniprot_COG5002_1762
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 11:31:34 2023]
+Finished job 3.
+2 of 5 steps (40%) done
+Select jobs to execute...
+
+[Fri Apr 28 11:31:34 2023]
+rule eggnog_get_fasta:
+    input: scripts/get_fasta.awk, data/COG5002_members_1762.tsv
+    output: data/COG5002_members_1762.faa
+    jobid: 2
+    reason: Missing output files: data/COG5002_members_1762.faa
+    wildcards: eggnog_member_list=COG5002_members_1762
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 11:32:25 2023]
+Finished job 2.
+3 of 5 steps (60%) done
+Select jobs to execute...
+
+[Fri Apr 28 11:32:25 2023]
+rule msa_clustalo_ebi:
+    input: data/COG5002_members_1762.faa
+    output: results/clustalo_COG5002_members_1762.log
+    jobid: 1
+    reason: Missing output files: results/clustalo_COG5002_members_1762.log; Input files updated by another job: data/COG5002_members_1762.faa
+    wildcards: fasta_seqs=COG5002_members_1762
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 11:34:14 2023]
+Finished job 1.
+4 of 5 steps (80%) done
+Select jobs to execute...
+
+[Fri Apr 28 11:34:14 2023]
+localrule all:
+    input: results/clustalo_COG5002_members_1762.log, results/clustalo_uniprot_COG5002_1762.log
+    jobid: 0
+    reason: Input files updated by another job: results/clustalo_uniprot_COG5002_1762.log, results/clustalo_COG5002_members_1762.log
+    resources: tmpdir=/tmp
+
+[Fri Apr 28 11:34:14 2023]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: .snakemake/log/2023-04-28T113005.365576.snakemake.log
