@@ -1,0 +1,3 @@
+NP_215272.1	Pfam	PF00672	HAMP domain	179	231	2.8E-11	IPR003660	HAMP domain	GO:0007165|GO:0016020
+NP_215272.1	Pfam	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	358	468	3.1E-28	IPR003594	Histidine kinase/HSP90-like ATPase	-
+NP_215272.1	Pfam	PF00512	His Kinase A (phospho-acceptor) domain	250	312	1.1E-15	IPR003661	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain	GO:0000155|GO:0007165

@@ -74,7 +74,7 @@ if __name__ == "__main__":
     r = get_uniprot(query)
 
     # save output to file
-    fname = "data/uniprot_COG5002_1762.faa"
+    fname = "data/uniprot_COG5002_1762.fasta"
     with open(fname, "w") as f:
         f.write(r.text)
     

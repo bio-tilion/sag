@@ -1,0 +1,2183 @@
+{
+    "interproscan-version": "5.61-93.0",
+    "results": [
+        {
+            "sequence": "MARHLRGRLPLRVRLVAATLILVATGLVASGIAVTSMLQHRLTSRIDRVLLEEAQIWAQITLPLAPDPYPGHNPDRPPSRFYVRVISPDGQSYTALNDNTAIPAVPANNDVGRHPTTLPSIGGSKTLWRAVSVRASDGYLTTVAIDLADVRSTVRSLVLLQVGIGSAVLVVPGVAGYAVVRRSLRPLAEFEQTAAAIGAGQLDRRVPQWHPRTEVGRLSLALNGMLAQIQRAVASAESSAEKARDSEDRMRQFITDASHELRTPLTTIRGFAELYRQGAARDVGMLLSRIESEASRMGLLVDDLLLLARLDAHRPLELCRVDLLALASDAAHDARAMDPKRRITLEVLDGPGTPEVLGDESRLRQVLRNLVANAIQHTPESADVTVRVGTEGDDAILEVADDGPGMSQEDALRVFERFYRADSSRARASGGTGLGLSIVDSLVAAHGGAVTVTTALGEGCCFRVSLPRVSDVDQLSLTPVVPGPP",
+            "md5": "81e26bad12699506fdb07120d0bc4152",
+            "matches": [
+                {
+                    "signature": {
+                        "accession": "PF00672",
+                        "name": "HAMP",
+                        "description": "HAMP domain",
+                        "signatureLibraryRelease": {
+                            "library": "PFAM",
+                            "version": "35.0"
+                        },
+                        "entry": {
+                            "accession": "IPR003660",
+                            "name": "HAMP_dom",
+                            "description": "HAMP domain",
+                            "type": "DOMAIN",
+                            "goXRefs": [
+                                {
+                                    "name": "signal transduction",
+                                    "databaseName": "GO",
+                                    "category": "BIOLOGICAL_PROCESS",
+                                    "id": "GO:0007165"
+                                },
+                                {
+                                    "name": "membrane",
+                                    "databaseName": "GO",
+                                    "category": "CELLULAR_COMPONENT",
+                                    "id": "GO:0016020"
+                                }
+                            ],
+                            "pathwayXRefs": [
+                                {
+                                    "name": "2-arachidonoylglycerol biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8052"
+                                },
+                                {
+                                    "name": "D-myo-inositol (1,4,5,6)-tetrakisphosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6366"
+                                },
+                                {
+                                    "name": "hygromycin B biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8367"
+                                },
+                                {
+                                    "name": "dolichol and dolichyl phosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6129"
+                                },
+                                {
+                                    "name": "erythritol biosynthesis II",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8373"
+                                },
+                                {
+                                    "name": "adenosylcobinamide-GDP salvage from assorted adenosylcobamides",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8282"
+                                },
+                                {
+                                    "name": "phosphatidylglycerol degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7366"
+                                },
+                                {
+                                    "name": "diethylphosphate degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-5491"
+                                },
+                                {
+                                    "name": "D-myo-inositol (3,4,5,6)-tetrakisphosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6365"
+                                },
+                                {
+                                    "name": "(Kdo)2-lipid A biosynthesis (P. gingivalis)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8247"
+                                },
+                                {
+                                    "name": "serinol biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6456"
+                                },
+                                {
+                                    "name": "geraniol biosynthesis (cytosol)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8176"
+                                },
+                                {
+                                    "name": "mannojirimycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7531"
+                                },
+                                {
+                                    "name": "lincomycin A biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6955"
+                                },
+                                {
+                                    "name": "tRNA splicing I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6689"
+                                },
+                                {
+                                    "name": "roseoflavin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7863"
+                                },
+                                {
+                                    "name": "paromomycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7018"
+                                },
+                                {
+                                    "name": "ecdysteroid metabolism (arthropods)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7321"
+                                },
+                                {
+                                    "name": "3-phosphoinositide biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6352"
+                                },
+                                {
+                                    "name": "salinosporamide A biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6627"
+                                },
+                                {
+                                    "name": "IM-2 type gamma-butyrolactones biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7882"
+                                },
+                                {
+                                    "name": "A-factor gamma-butyrolactone biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7878"
+                                },
+                                {
+                                    "name": "virginiae butanolide type gamma-butyrolactones biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7881"
+                                },
+                                {
+                                    "name": "kanosamine biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-5978"
+                                },
+                                {
+                                    "name": "(+)-camphor biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6990"
+                                },
+                                {
+                                    "name": "juvenile hormone III biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6575"
+                                },
+                                {
+                                    "name": "butachlor degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7771"
+                                },
+                                {
+                                    "name": "toyocamycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6720"
+                                },
+                                {
+                                    "name": "3-phosphoinositide degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6368"
+                                },
+                                {
+                                    "name": "(-)-camphor biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6991"
+                                },
+                                {
+                                    "name": "phytate degradation I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-4702"
+                                },
+                                {
+                                    "name": "erythritol biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8372"
+                                },
+                                {
+                                    "name": "tetrahydromethanopterin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6148"
+                                },
+                                {
+                                    "name": "ceramide and sphingolipid recycling and degradation (yeast)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7119"
+                                },
+                                {
+                                    "name": "starch degradation II",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6724"
+                                },
+                                {
+                                    "name": "mannosylglucosylglycerate biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6686"
+                                }
+                            ]
+                        }
+                    },
+                    "locations": [
+                        {
+                            "start": 179,
+                            "end": 231,
+                            "hmmStart": 2,
+                            "hmmEnd": 53,
+                            "hmmLength": 53,
+                            "hmmBounds": "C_TERMINAL_COMPLETE",
+                            "evalue": 2.8e-11,
+                            "score": 43.6,
+                            "envelopeStart": 178,
+                            "envelopeEnd": 231,
+                            "postProcessed": true,
+                            "location-fragments": [
+                                {
+                                    "start": 179,
+                                    "end": 231,
+                                    "dc-status": "CONTINUOUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "evalue": 1.7e-11,
+                    "score": 44.3,
+                    "model-ac": "PF00672"
+                },
+                {
+                    "signature": {
+                        "accession": "PF02518",
+                        "name": "HATPase_c",
+                        "description": "Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",
+                        "signatureLibraryRelease": {
+                            "library": "PFAM",
+                            "version": "35.0"
+                        },
+                        "entry": {
+                            "accession": "IPR003594",
+                            "name": "HATPase_C",
+                            "description": "Histidine kinase/HSP90-like ATPase",
+                            "type": "DOMAIN",
+                            "goXRefs": [],
+                            "pathwayXRefs": [
+                                {
+                                    "name": "2-arachidonoylglycerol biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8052"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-2029482"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-3371571"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-8939211"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-3371571"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-399954"
+                                },
+                                {
+                                    "name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CFA-381426"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-8937144"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-203615"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-9009391"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-9013418"
+                                },
+                                {
+                                    "name": "Regulation of PLK1 Activity at G2/M Transition",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-2565942"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-4615885"
+                                },
+                                {
+                                    "name": "Post-translational protein phosphorylation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-8957275"
+                                },
+                                {
+                                    "name": "Signaling by Retinoic Acid",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-5362517"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-1227986"
+                                },
+                                {
+                                    "name": "Anchoring of the basal body to the plasma membrane",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-5620912"
+                                },
+                                {
+                                    "name": "AURKA Activation by TPX2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-8854518"
+                                },
+                                {
+                                    "name": "Regulation of PLK1 Activity at G2/M Transition",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-2565942"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-1474151"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-2029482"
+                                },
+                                {
+                                    "name": "paromomycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7018"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-844456"
+                                },
+                                {
+                                    "name": "Scavenging by Class A Receptors",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CFA-3000480"
+                                },
+                                {
+                                    "name": "Anchoring of the basal body to the plasma membrane",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5620912"
+                                },
+                                {
+                                    "name": "A-factor gamma-butyrolactone biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7878"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-1474151"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-3371497"
+                                },
+                                {
+                                    "name": "Loss of Nlp from mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-380259"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-844456"
+                                },
+                                {
+                                    "name": "Regulation of necroptotic cell death",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5675482"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-1227986"
+                                },
+                                {
+                                    "name": "ATF6 (ATF6-alpha) activates chaperone genes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-381183"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-8863795"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-3371568"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-9009391"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-8863795"
+                                },
+                                {
+                                    "name": "ceramide and sphingolipid recycling and degradation (yeast)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7119"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-6785807"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-8939211"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-4615885"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-844456"
+                                },
+                                {
+                                    "name": "DDX58/IFIH1-mediated induction of interferon-alpha/beta",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-168928"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-399954"
+                                },
+                                {
+                                    "name": "Recruitment of mitotic centrosome proteins and complexes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-380270"
+                                },
+                                {
+                                    "name": "Regulation of pyruvate dehydrogenase (PDH) complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-204174"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-203615"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-8937144"
+                                },
+                                {
+                                    "name": "Branched-chain amino acid catabolism",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-70895"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-3371571"
+                                },
+                                {
+                                    "name": "The role of GTSE1 in G2/M progression after G2 checkpoint",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-8852276"
+                                },
+                                {
+                                    "name": "Regulation of PLK1 Activity at G2/M Transition",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-2565942"
+                                },
+                                {
+                                    "name": "VEGFA-VEGFR2 Pathway",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-4420097"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-9018519"
+                                },
+                                {
+                                    "name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-381426"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-2029482"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-3371511"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-1474151"
+                                },
+                                {
+                                    "name": "VEGFA-VEGFR2 Pathway",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-4420097"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-3371571"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-3371511"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-844456"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-8937144"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-1227986"
+                                },
+                                {
+                                    "name": "AURKA Activation by TPX2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-8854518"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5218920"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-3371571"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-203615"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to tesevatinib",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665245"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-6798695"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-8939211"
+                                },
+                                {
+                                    "name": "SARS-CoV-2 activates/modulates innate and adaptive immune responses",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9705671"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-8863795"
+                                },
+                                {
+                                    "name": "AURKA Activation by TPX2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-8854518"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-3371568"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to trastuzumab",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665233"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-8863795"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-9009391"
+                                },
+                                {
+                                    "name": "phytate degradation I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-4702"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-6798695"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-2029482"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-5218920"
+                                },
+                                {
+                                    "name": "Recruitment of NuMA to mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-380320"
+                                },
+                                {
+                                    "name": "Constitutive Signaling by EGFRvIII",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5637810"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-9013418"
+                                },
+                                {
+                                    "name": "The role of GTSE1 in G2/M progression after G2 checkpoint",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-8852276"
+                                },
+                                {
+                                    "name": "Recruitment of NuMA to mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-380320"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-9018519"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-9013418"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-5218920"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-3371497"
+                                },
+                                {
+                                    "name": "Regulation of pyruvate dehydrogenase (PDH) complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-204174"
+                                },
+                                {
+                                    "name": "hygromycin B biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8367"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-8939211"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-9009391"
+                                },
+                                {
+                                    "name": "adenosylcobinamide-GDP salvage from assorted adenosylcobamides",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8282"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-3371497"
+                                },
+                                {
+                                    "name": "Signaling by Retinoic Acid",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-5362517"
+                                },
+                                {
+                                    "name": "Regulation of PLK1 Activity at G2/M Transition",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-2565942"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-1474151"
+                                },
+                                {
+                                    "name": "D-myo-inositol (3,4,5,6)-tetrakisphosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6365"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to lapatinib",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665251"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-4615885"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-1474151"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-9652282"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-1227986"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9009391"
+                                },
+                                {
+                                    "name": "Scavenging by Class A Receptors",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-3000480"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-3371497"
+                                },
+                                {
+                                    "name": "VEGFA-VEGFR2 Pathway",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-4420097"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-5218920"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-3371571"
+                                },
+                                {
+                                    "name": "Regulation of pyruvate dehydrogenase (PDH) complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-204174"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-3371568"
+                                },
+                                {
+                                    "name": "Anchoring of the basal body to the plasma membrane",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-5620912"
+                                },
+                                {
+                                    "name": "Anchoring of the basal body to the plasma membrane",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-5620912"
+                                },
+                                {
+                                    "name": "Regulation of necroptotic cell death",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-5675482"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-3371497"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-1227986"
+                                },
+                                {
+                                    "name": "Recruitment of NuMA to mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-380320"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-9018519"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-9009391"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-8937144"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-3371571"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-6785807"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-6798695"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-6785807"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9013418"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2 TMD/JMD mutants",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665686"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-9652282"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2 ECD mutants",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665348"
+                                },
+                                {
+                                    "name": "Signaling by Retinoic Acid",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-5362517"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to sapitinib",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665244"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-5218920"
+                                },
+                                {
+                                    "name": "serinol biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6456"
+                                },
+                                {
+                                    "name": "Regulation of pyruvate dehydrogenase (PDH) complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-204174"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to neratinib",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665246"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-203615"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-9013418"
+                                },
+                                {
+                                    "name": "AURKA Activation by TPX2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-8854518"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-4615885"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-9009391"
+                                },
+                                {
+                                    "name": "Signaling by Retinoic Acid",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5362517"
+                                },
+                                {
+                                    "name": "virginiae butanolide type gamma-butyrolactones biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7881"
+                                },
+                                {
+                                    "name": "Regulation of necroptotic cell death",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-5675482"
+                                },
+                                {
+                                    "name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-381426"
+                                },
+                                {
+                                    "name": "butachlor degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7771"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-3371568"
+                                },
+                                {
+                                    "name": "PIWI-interacting RNA (piRNA) biogenesis",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5601884"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-6798695"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-399954"
+                                },
+                                {
+                                    "name": "Uptake and function of diphtheria toxin",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-5336415"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-3371511"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2 KD Mutants",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9664565"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-8939211"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-2029482"
+                                },
+                                {
+                                    "name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-380284"
+                                },
+                                {
+                                    "name": "Trafficking and processing of endosomal TLR",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-1679131"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-3371511"
+                                },
+                                {
+                                    "name": "Transcription of E2F targets under negative control by DREAM complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-1362277"
+                                },
+                                {
+                                    "name": "starch degradation II",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6724"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-203615"
+                                },
+                                {
+                                    "name": "The role of GTSE1 in G2/M progression after G2 checkpoint",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-8852276"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-2029482"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-9652282"
+                                },
+                                {
+                                    "name": "Recruitment of mitotic centrosome proteins and complexes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-380270"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-9013418"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-1474151"
+                                },
+                                {
+                                    "name": "Signaling by Retinoic Acid",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-5362517"
+                                },
+                                {
+                                    "name": "VEGFA-VEGFR2 Pathway",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-4420097"
+                                },
+                                {
+                                    "name": "Post-translational protein phosphorylation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-8957275"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-3371511"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to AEE788",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665250"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-1474151"
+                                },
+                                {
+                                    "name": "Loss of Nlp from mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-380259"
+                                },
+                                {
+                                    "name": "Scavenging by Class F Receptors",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-3000484"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9018519"
+                                },
+                                {
+                                    "name": "Branched-chain amino acid catabolism",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-70895"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-6798695"
+                                },
+                                {
+                                    "name": "geraniol biosynthesis (cytosol)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8176"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-2029482"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9652282"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-844456"
+                                },
+                                {
+                                    "name": "roseoflavin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7863"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-3371568"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-203615"
+                                },
+                                {
+                                    "name": "DDX58/IFIH1-mediated induction of interferon-alpha/beta",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-168928"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-1227986"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-203615"
+                                },
+                                {
+                                    "name": "Regulation of necroptotic cell death",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-5675482"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-8937144"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-4615885"
+                                },
+                                {
+                                    "name": "3-phosphoinositide degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6368"
+                                },
+                                {
+                                    "name": "Recruitment of mitotic centrosome proteins and complexes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-380270"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-844456"
+                                },
+                                {
+                                    "name": "Loss of Nlp from mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-380259"
+                                },
+                                {
+                                    "name": "Regulation of actin dynamics for phagocytic cup formation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-2029482"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-8863795"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-5218920"
+                                },
+                                {
+                                    "name": "Anchoring of the basal body to the plasma membrane",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-5620912"
+                                },
+                                {
+                                    "name": "Trafficking and processing of endosomal TLR",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-1679131"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-9018519"
+                                },
+                                {
+                                    "name": "tetrahydromethanopterin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6148"
+                                },
+                                {
+                                    "name": "DDX58/IFIH1-mediated induction of interferon-alpha/beta",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-168928"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-3371511"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-8939211"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-3371571"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-9009391"
+                                },
+                                {
+                                    "name": "Post-translational protein phosphorylation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-8957275"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-8939211"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-1474151"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CFA-6785807"
+                                },
+                                {
+                                    "name": "D-myo-inositol (1,4,5,6)-tetrakisphosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6366"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-8937144"
+                                },
+                                {
+                                    "name": "erythritol biosynthesis II",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8373"
+                                },
+                                {
+                                    "name": "Post-translational protein phosphorylation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-8957275"
+                                },
+                                {
+                                    "name": "Branched-chain amino acid catabolism",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-70895"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-8863795"
+                                },
+                                {
+                                    "name": "DDX58/IFIH1-mediated induction of interferon-alpha/beta",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-168928"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-8939211"
+                                },
+                                {
+                                    "name": "VEGFA-VEGFR2 Pathway",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-4420097"
+                                },
+                                {
+                                    "name": "vRNP Assembly",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-192905"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-3371511"
+                                },
+                                {
+                                    "name": "Scavenging by Class A Receptors",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-3000480"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-3371568"
+                                },
+                                {
+                                    "name": "lincomycin A biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6955"
+                                },
+                                {
+                                    "name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-381426"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-844456"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-4615885"
+                                },
+                                {
+                                    "name": "Post-translational protein phosphorylation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-8957275"
+                                },
+                                {
+                                    "name": "Regulation of necroptotic cell death",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-5675482"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-6798695"
+                                },
+                                {
+                                    "name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-381426"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-9652282"
+                                },
+                                {
+                                    "name": "3-phosphoinositide biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6352"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-6785807"
+                                },
+                                {
+                                    "name": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-1474151"
+                                },
+                                {
+                                    "name": "IM-2 type gamma-butyrolactones biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7882"
+                                },
+                                {
+                                    "name": "Recruitment of mitotic centrosome proteins and complexes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-380270"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-3371511"
+                                },
+                                {
+                                    "name": "(+)-camphor biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6990"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-8939211"
+                                },
+                                {
+                                    "name": "juvenile hormone III biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6575"
+                                },
+                                {
+                                    "name": "Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-1236382"
+                                },
+                                {
+                                    "name": "Constitutive Signaling by Overexpressed ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9634285"
+                                },
+                                {
+                                    "name": "Scavenging by Class A Receptors",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-3000480"
+                                },
+                                {
+                                    "name": "Regulation of pyruvate dehydrogenase (PDH) complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-204174"
+                                },
+                                {
+                                    "name": "Recruitment of NuMA to mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-380320"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-3371497"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-3371497"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-6798695"
+                                },
+                                {
+                                    "name": "The role of GTSE1 in G2/M progression after G2 checkpoint",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-8852276"
+                                },
+                                {
+                                    "name": "DDX58/IFIH1-mediated induction of interferon-alpha/beta",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-168928"
+                                },
+                                {
+                                    "name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-380284"
+                                },
+                                {
+                                    "name": "Trafficking and processing of endosomal TLR",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CFA-1679131"
+                                },
+                                {
+                                    "name": "Loss of Nlp from mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-380259"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-399954"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-3371571"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-3371511"
+                                },
+                                {
+                                    "name": "Extra-nuclear estrogen signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-9009391"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-399954"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-6785807"
+                                },
+                                {
+                                    "name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-380284"
+                                },
+                                {
+                                    "name": "mannojirimycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7531"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-8937144"
+                                },
+                                {
+                                    "name": "Loss of Nlp from mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-380259"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-3371497"
+                                },
+                                {
+                                    "name": "Purinergic signaling in leishmaniasis infection",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9660826"
+                                },
+                                {
+                                    "name": "Aggrephagy",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9646399"
+                                },
+                                {
+                                    "name": "salinosporamide A biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6627"
+                                },
+                                {
+                                    "name": "toyocamycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6720"
+                                },
+                                {
+                                    "name": "Downregulation of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-8863795"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-6798695"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-6798695"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-203615"
+                                },
+                                {
+                                    "name": "Signaling by ERBB2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-1227986"
+                                },
+                                {
+                                    "name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-380284"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-4615885"
+                                },
+                                {
+                                    "name": "Respiratory electron transport",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-611105"
+                                },
+                                {
+                                    "name": "Potential therapeutics for SARS",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9679191"
+                                },
+                                {
+                                    "name": "Trafficking and processing of endosomal TLR",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-1679131"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-3371497"
+                                },
+                                {
+                                    "name": "Branched-chain amino acid catabolism",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-70895"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-399954"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-3371571"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-3371511"
+                                },
+                                {
+                                    "name": "HSF1 activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-3371511"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DME-9018519"
+                                },
+                                {
+                                    "name": "ESR-mediated signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-8939211"
+                                },
+                                {
+                                    "name": "Regulation of pyruvate dehydrogenase (PDH) complex",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-204174"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-9652282"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SCE-6798695"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-9013418"
+                                },
+                                {
+                                    "name": "Recruitment of NuMA to mitotic centrosomes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-380320"
+                                },
+                                {
+                                    "name": "Estrogen-dependent gene expression",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-9018519"
+                                },
+                                {
+                                    "name": "HSF1-dependent transactivation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-3371571"
+                                },
+                                {
+                                    "name": "Drug-mediated inhibition of ERBB2 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-9652282"
+                                },
+                                {
+                                    "name": "Chaperone Mediated Autophagy",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9613829"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-5218920"
+                                },
+                                {
+                                    "name": "Neutrophil degranulation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-6798695"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-3371497"
+                                },
+                                {
+                                    "name": "Post-translational protein phosphorylation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CFA-8957275"
+                                },
+                                {
+                                    "name": "diethylphosphate degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-5491"
+                                },
+                                {
+                                    "name": "The NLRP3 inflammasome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-844456"
+                                },
+                                {
+                                    "name": "(Kdo)2-lipid A biosynthesis (P. gingivalis)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8247"
+                                },
+                                {
+                                    "name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-380284"
+                                },
+                                {
+                                    "name": "SUMOylation of DNA replication proteins",
+                                    "databaseName": "Reactome",
+                                    "id": "R-RNO-4615885"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-399954"
+                                },
+                                {
+                                    "name": "Regulation of necroptotic cell death",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-5675482"
+                                },
+                                {
+                                    "name": "Regulation of PLK1 Activity at G2/M Transition",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-2565942"
+                                },
+                                {
+                                    "name": "ecdysteroid metabolism (arthropods)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7321"
+                                },
+                                {
+                                    "name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-381426"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to osimertinib",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665247"
+                                },
+                                {
+                                    "name": "Resistance of ERBB2 KD mutants to afatinib",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665249"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-3371568"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-5218920"
+                                },
+                                {
+                                    "name": "Attenuation phase",
+                                    "databaseName": "Reactome",
+                                    "id": "R-CEL-3371568"
+                                },
+                                {
+                                    "name": "(-)-camphor biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6991"
+                                },
+                                {
+                                    "name": "Signaling by Retinoic Acid",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-5362517"
+                                },
+                                {
+                                    "name": "Trafficking and processing of endosomal TLR",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-1679131"
+                                },
+                                {
+                                    "name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-3371497"
+                                },
+                                {
+                                    "name": "Sema3A PAK dependent Axon repulsion",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-399954"
+                                },
+                                {
+                                    "name": "erythritol biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8372"
+                                },
+                                {
+                                    "name": "AURKA Activation by TPX2",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SSC-8854518"
+                                },
+                                {
+                                    "name": "VEGFR2 mediated vascular permeability",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DDI-5218920"
+                                },
+                                {
+                                    "name": "DDX58/IFIH1-mediated induction of interferon-alpha/beta",
+                                    "databaseName": "Reactome",
+                                    "id": "R-DRE-168928"
+                                },
+                                {
+                                    "name": "Drug resistance in ERBB2 TMD/JMD mutants",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-9665737"
+                                },
+                                {
+                                    "name": "RHOBTB2 GTPase cycle",
+                                    "databaseName": "Reactome",
+                                    "id": "R-SPO-9013418"
+                                },
+                                {
+                                    "name": "Aryl hydrocarbon receptor signalling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-BTA-8937144"
+                                },
+                                {
+                                    "name": "Interleukin-4 and Interleukin-13 signaling",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-6785807"
+                                },
+                                {
+                                    "name": "eNOS activation",
+                                    "databaseName": "Reactome",
+                                    "id": "R-HSA-203615"
+                                },
+                                {
+                                    "name": "Recruitment of mitotic centrosome proteins and complexes",
+                                    "databaseName": "Reactome",
+                                    "id": "R-MMU-380270"
+                                },
+                                {
+                                    "name": "mannosylglucosylglycerate biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6686"
+                                }
+                            ]
+                        }
+                    },
+                    "locations": [
+                        {
+                            "start": 358,
+                            "end": 468,
+                            "hmmStart": 1,
+                            "hmmEnd": 110,
+                            "hmmLength": 112,
+                            "hmmBounds": "N_TERMINAL_COMPLETE",
+                            "evalue": 3.1e-28,
+                            "score": 98.5,
+                            "envelopeStart": 358,
+                            "envelopeEnd": 470,
+                            "postProcessed": true,
+                            "location-fragments": [
+                                {
+                                    "start": 358,
+                                    "end": 468,
+                                    "dc-status": "CONTINUOUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "evalue": 1.7e-28,
+                    "score": 99.3,
+                    "model-ac": "PF02518"
+                },
+                {
+                    "signature": {
+                        "accession": "PF00512",
+                        "name": "HisKA",
+                        "description": "His Kinase A (phospho-acceptor) domain",
+                        "signatureLibraryRelease": {
+                            "library": "PFAM",
+                            "version": "35.0"
+                        },
+                        "entry": {
+                            "accession": "IPR003661",
+                            "name": "HisK_dim/P",
+                            "description": "Signal transduction histidine kinase, dimerisation/phosphoacceptor domain",
+                            "type": "DOMAIN",
+                            "goXRefs": [
+                                {
+                                    "name": "signal transduction",
+                                    "databaseName": "GO",
+                                    "category": "BIOLOGICAL_PROCESS",
+                                    "id": "GO:0007165"
+                                },
+                                {
+                                    "name": "phosphorelay sensor kinase activity",
+                                    "databaseName": "GO",
+                                    "category": "MOLECULAR_FUNCTION",
+                                    "id": "GO:0000155"
+                                }
+                            ],
+                            "pathwayXRefs": [
+                                {
+                                    "name": "2-arachidonoylglycerol biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8052"
+                                },
+                                {
+                                    "name": "D-myo-inositol (1,4,5,6)-tetrakisphosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6366"
+                                },
+                                {
+                                    "name": "hygromycin B biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8367"
+                                },
+                                {
+                                    "name": "erythritol biosynthesis II",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8373"
+                                },
+                                {
+                                    "name": "adenosylcobinamide-GDP salvage from assorted adenosylcobamides",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8282"
+                                },
+                                {
+                                    "name": "diethylphosphate degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-5491"
+                                },
+                                {
+                                    "name": "D-myo-inositol (3,4,5,6)-tetrakisphosphate biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6365"
+                                },
+                                {
+                                    "name": "(Kdo)2-lipid A biosynthesis (P. gingivalis)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8247"
+                                },
+                                {
+                                    "name": "serinol biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6456"
+                                },
+                                {
+                                    "name": "geraniol biosynthesis (cytosol)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8176"
+                                },
+                                {
+                                    "name": "mannojirimycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7531"
+                                },
+                                {
+                                    "name": "lincomycin A biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6955"
+                                },
+                                {
+                                    "name": "roseoflavin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7863"
+                                },
+                                {
+                                    "name": "paromomycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7018"
+                                },
+                                {
+                                    "name": "ecdysteroid metabolism (arthropods)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7321"
+                                },
+                                {
+                                    "name": "3-phosphoinositide biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6352"
+                                },
+                                {
+                                    "name": "salinosporamide A biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6627"
+                                },
+                                {
+                                    "name": "IM-2 type gamma-butyrolactones biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7882"
+                                },
+                                {
+                                    "name": "A-factor gamma-butyrolactone biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7878"
+                                },
+                                {
+                                    "name": "virginiae butanolide type gamma-butyrolactones biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7881"
+                                },
+                                {
+                                    "name": "(+)-camphor biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6990"
+                                },
+                                {
+                                    "name": "juvenile hormone III biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6575"
+                                },
+                                {
+                                    "name": "butachlor degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7771"
+                                },
+                                {
+                                    "name": "toyocamycin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6720"
+                                },
+                                {
+                                    "name": "3-phosphoinositide degradation",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6368"
+                                },
+                                {
+                                    "name": "(-)-camphor biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6991"
+                                },
+                                {
+                                    "name": "phytate degradation I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-4702"
+                                },
+                                {
+                                    "name": "erythritol biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-8372"
+                                },
+                                {
+                                    "name": "tetrahydromethanopterin biosynthesis",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6148"
+                                },
+                                {
+                                    "name": "ceramide and sphingolipid recycling and degradation (yeast)",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-7119"
+                                },
+                                {
+                                    "name": "starch degradation II",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6724"
+                                },
+                                {
+                                    "name": "mannosylglucosylglycerate biosynthesis I",
+                                    "databaseName": "MetaCyc",
+                                    "id": "PWY-6686"
+                                }
+                            ]
+                        }
+                    },
+                    "locations": [
+                        {
+                            "start": 250,
+                            "end": 312,
+                            "hmmStart": 2,
+                            "hmmEnd": 66,
+                            "hmmLength": 67,
+                            "hmmBounds": "INCOMPLETE",
+                            "evalue": 1.1e-15,
+                            "score": 57.4,
+                            "envelopeStart": 249,
+                            "envelopeEnd": 313,
+                            "postProcessed": true,
+                            "location-fragments": [
+                                {
+                                    "start": 250,
+                                    "end": 312,
+                                    "dc-status": "CONTINUOUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "evalue": 5.4e-16,
+                    "score": 58.4,
+                    "model-ac": "PF00512"
+                }
+            ],
+            "xref": [
+                {
+                    "name": "NP_215272.1 phoR [organism=Mycobacterium tuberculosis H37Rv] [GeneID=888775]",
+                    "id": "NP_215272.1"
+                }
+            ]
+        }
+    ]
+}
