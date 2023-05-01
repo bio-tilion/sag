@@ -1,7 +1,0 @@
-Building DAG of jobs...
-MissingInputException in rule eggnog_get_fasta in file /home/palby/sag/Snakefile, line 6:
-Missing input files for rule eggnog_get_fasta:
-    output: data/uniprot_COG5002_1762.faa
-    wildcards: eggnog_member_list=uniprot_COG5002_1762
-    affected files:
-        data/uniprot_COG5002_1762.tsv
